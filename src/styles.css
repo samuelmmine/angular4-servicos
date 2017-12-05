@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css?family=Boogaloo');
+
+
+body{
+	font-family: 'Boogaloo', cursive;
+	font-size: 2em;
+	color: #fff;
+	background:url('https://wallpaperscraft.com/image/moto_harley_harley_davidson_883_74175_1920x1080.jpg')no-repeat;
+	background-size:100%;
+	height: 140px;
+	display:block;
+	padding:0 !important;
+	margin:0;
+}
