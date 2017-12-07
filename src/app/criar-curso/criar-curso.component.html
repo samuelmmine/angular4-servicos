@@ -1,9 +1,9 @@
 <p>Criar de Cursos</p>
 
 
-<input type="text" #cursoInput class="form-control">
+<input type="text" #cursoInput class="form-control">  
 <button (click)="onAddCurso(cursoInput.value)" class="btn btn-primary">Add Curso</button>
-
+<button (click)="removCurso()" class="btn btn-danger">Remov Curso</button>
 <ul>
 	<li *ngFor="let curso of cursos">
 		{{ curso }}

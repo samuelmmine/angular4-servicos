@@ -21,4 +21,8 @@ export class CursosService {
 		this.cursos.push(curso);
 	}
 
+	removeCursos(){
+		this.cursos.splice(this.cursos.length - 1);
+	}
+
 }
