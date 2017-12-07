@@ -10,9 +10,9 @@ import { CursosService } from './cursos.service';
 export class CursosComponent implements OnInit {
 
   cursos: string[] = [];
-  cursosService: CursosService;
+  
 
-  constructor() { 
+  constructor(private cursosService: CursosService) { 
 
   	this.cursosService = new CursosService();
 
